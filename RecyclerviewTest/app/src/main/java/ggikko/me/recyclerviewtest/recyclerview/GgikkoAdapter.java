@@ -39,10 +39,8 @@ public class GgikkoAdapter extends RecyclerView.Adapter<GgikkoAdapter.GgikkoView
 
     @Override
     public GgikkoAdapter.GgikkoViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-
         View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_row, parent, false);
         return new GgikkoViewHolder(itemView);
-
     }
 
     @Override
